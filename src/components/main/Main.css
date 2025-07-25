@@ -37,6 +37,7 @@
 .main .greet span{
     background: -webkit-linear-gradient(160deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -118,4 +119,5 @@
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
+    font-weight: 300;
 }
