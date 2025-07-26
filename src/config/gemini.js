@@ -17,9 +17,8 @@ async function runChat(prompt) {
     // Await the result from the model
     const result = await model.generateContent(prompt);
     const response = result.response;
-    const text = response.text();
-
-    console.log(text);
+    console.log(response.text());
+    return response.text();
 
   } catch (error) {
     console.error("An error occurred:", error);
